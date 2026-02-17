@@ -10,9 +10,23 @@
 		FC6D47082F3BB6900008A8E8 /* 100DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FC6D47482F3D06520008A8E8 /* Exceptions for "100DaysSwiftUI" folder in "100DaysSwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Day001/README.md,
+				Day032/README.md,
+			);
+			target = FC6D47072F3BB6900008A8E8 /* 100DaysSwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FC6D470A2F3BB6900008A8E8 /* 100DaysSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC6D47482F3D06520008A8E8 /* Exceptions for "100DaysSwiftUI" folder in "100DaysSwiftUI" target */,
+			);
 			path = 100DaysSwiftUI;
 			sourceTree = "<group>";
 		};
