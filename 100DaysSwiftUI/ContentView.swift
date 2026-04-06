@@ -7,18 +7,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        struct ContentView: View {
+            var body: some View {
+                HStack {
+                    Text("My code works…I have absolutely no idea why this extremely long text behaves like this.")
 
+                    Text("I fixed one bug and created others ^_^!.")
+
+                   
+                }
+                .font(.largeTitle)
+                .background(Color.yellow)
+                .lineLimit(2)
+
+            }
+        }
 #Preview {
     ContentView()
 }
